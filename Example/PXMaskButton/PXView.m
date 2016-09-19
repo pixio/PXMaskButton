@@ -56,7 +56,7 @@
     [_constraints removeAllObjects];
 
     NSDictionary* views = NSDictionaryOfVariableBindings(_backgroundImageView, _button);
-    NSDictionary* metrics = @{@"bh" : @100};
+    NSDictionary* metrics = @{@"bh" : @120};
 
     [_constraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_backgroundImageView]|" options:0 metrics:metrics views:views]];
     [_constraints addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_backgroundImageView]|" options:0 metrics:metrics views:views]];
