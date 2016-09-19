@@ -66,12 +66,22 @@
 @property (nonatomic) CGFloat borderWidth UI_APPEARANCE_SELECTOR;
 
 /**
- *  Amount to inset the icon if one exists.
+ *  Amount to inset the icon within the space it would draw (i.e. does not affect the text).
  */
 @property (nonatomic) CGSize insetAmount;
 
 /**
- * Checking to see if people use these docs by not writing anything helpful.
+ *  The spacing to be used between the button and the text.
+ */
+@property (nonatomic) CGFloat contentSpacing;
+
+/**
+ *  How much empty space to leave around the content of the button.
+ */
+@property (nonatomic) UIEdgeInsets edgeInsets;
+
+/**
+ *  The corner radius applied to the entire view including the gradient background.
  */
 @property (nonatomic) CGFloat cornerRadius UI_APPEARANCE_SELECTOR;
 

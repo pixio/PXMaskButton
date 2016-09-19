@@ -30,7 +30,7 @@
 
 #import <UIImageUtilities/UIImage+Tinted.h>
 
-#define Padding -6.0f
+#define Padding (_contentSpacing - 6.0f)
 
 @implementation PXMaskButton
 {
@@ -84,6 +84,27 @@
     }
     
     // draw image and text
+    // 
+    // *-------------------*
+    // |     edge|inset    |
+    // |   *-----------*   |
+    // |   |  +-----+  |   |
+    // |   |  | img |  |   |
+    // |   |  |     |  |   |
+    // |---|  +-----+  |---|
+    // |   |cntnt|spcng|   |
+    // |   |   text    |   |
+    // |   *-----------*   |
+    // |         |         |
+    // *-------------------*
+    // 
+    
+    // align them in a centered fashion
+    CGRect r = self.bounds;
+    
+    // inset everything
+    CGRect sizingRect = UIEdgeInsetsInsetRect(r, _edgeInsets);
+    
     // find size of image
     CGSize imageSize = [_icon size];
     
@@ -96,20 +117,30 @@
                                   NSForegroundColorAttributeName : [UIColor whiteColor],
                                   NSParagraphStyleAttributeName : paragraphStyle,
                                   };
-    CGSize textSize = [_text boundingRectWithSize:[[self layer] bounds].size options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size;
+    CGSize textSize = [_text boundingRectWithSize:sizingRect.size options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size;
     
-    // align them in a centered fashion
-    CGRect r = self.bounds;
+    // reserve space for the text
+    sizingRect.size.height -= textSize.height + Padding;
     
-    CGRect imageRect;
-    imageRect.size = imageSize;
-    imageRect.origin.x = (r.size.width / 2) - (imageSize.width / 2);
-    imageRect.origin.y = (r.size.height / 2) - ((imageSize.height + textSize.height + Padding) / 2);
+    // adjust image to fit (preserving aspect ratio)    
+    CGRect imageRect = sizingRect;
+    
+    CGFloat widthScale = sizingRect.size.width / imageSize.width;
+    CGFloat heightScale = sizingRect.size.height / imageSize.height;
+    CGFloat scaleFactor = MIN(widthScale, heightScale);
+    
+    imageRect.size.width = imageSize.width * scaleFactor;
+    imageRect.size.height = imageSize.height * scaleFactor;
+    imageRect.origin.x = sizingRect.origin.x + (sizingRect.size.width - imageRect.size.width) / 2.0f;
+    imageRect.origin.y = sizingRect.origin.y + (sizingRect.size.height - imageRect.size.height) / 2.0f;
+    
+    // put the reserved text space back
+    sizingRect.size.height += textSize.height + Padding;
     
     CGRect textRect;
     textRect.size = textSize;
-    textRect.origin.x = (r.size.width / 2) - (textSize.width / 2);
-    textRect.origin.y = (_icon ? imageRect.origin.y + imageSize.height + Padding : (r.size.height / 2) - (textSize.height / 2));
+    textRect.origin.x = sizingRect.origin.x + (sizingRect.size.width / 2) - (textSize.width / 2);
+    textRect.origin.y = (_icon ? imageRect.origin.y + imageRect.size.height + Padding : sizingRect.origin.y + (sizingRect.size.height / 2) - (textSize.height / 2));
     
     // make da image
     CGFloat scale = [[UIScreen mainScreen] scale];
@@ -132,11 +163,11 @@
     CGContextTranslateCTM(context, 0, -r.size.height);
     
     UIGraphicsPushContext(context);
-
-    if (_icon != nil)
-    {
+    
+    if (_icon) {
         imageRect = CGRectInset(imageRect, _insetAmount.width, _insetAmount.height);
     }
+    
     [_icon drawInRect:CGRectIntegral(imageRect)];
     [_text drawInRect:CGRectIntegral(textRect) withAttributes:attributes];
     
