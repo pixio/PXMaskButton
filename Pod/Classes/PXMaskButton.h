@@ -34,24 +34,24 @@
 /**
  * The base color for the gradient and the drawing.
  */
-@property (nonatomic) UIColor * tintColor UI_APPEARANCE_SELECTOR;
+@property (nonatomic, nullable) UIColor * tintColor UI_APPEARANCE_SELECTOR;
 
 /**
  * The image used as a mask for the gradient (or just drawn as a white image).
  */
-@property (nonatomic) UIImage * icon;
+@property (nonatomic, nullable) UIImage * icon;
 
 /**
  * The text drawn/masked below the image.
  */
-@property (nonatomic) NSString * text;
+@property (nonatomic, nullable) NSString * text;
 
 /**
  *  The font for the button title.
  * 
  *  This font overrides the class-level default font.
  */
-@property (nonatomic) UIFont * font UI_APPEARANCE_SELECTOR;
+@property (nonatomic, nullable) UIFont * font UI_APPEARANCE_SELECTOR;
 
 /**
  * The size of font to use.
@@ -88,7 +88,7 @@
 /**
  * The color of the border drawn when the view is unselected.
  */
-@property (nonatomic) UIColor * borderColor UI_APPEARANCE_SELECTOR;
+@property (nonatomic, nullable) UIColor * borderColor UI_APPEARANCE_SELECTOR;
 
 /**
  * Whether to use a gradient when the background is filled. Default is TRUE.

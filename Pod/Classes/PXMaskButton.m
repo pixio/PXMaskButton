@@ -273,7 +273,7 @@
     [[self layer] setCornerRadius:_cornerRadius];
 }
 
-- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     _oldSelected = [self isSelected]; // save in case of cancel
     
@@ -281,7 +281,7 @@
     [self touchesMoved:touches withEvent:event];
 }
 
-- (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     // ~isSelected if finger on, not if finger off.
     if (CGRectContainsPoint([self bounds], [[touches anyObject] locationInView:self])) {
@@ -291,7 +291,7 @@
     }
 }
 
-- (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     // send final touch
     if (_toggles && CGRectContainsPoint([self bounds], [[touches anyObject] locationInView:self])) {
@@ -303,7 +303,7 @@
     [self sendActionsForControlEvents:UIControlEventTouchUpInside];
 }
 
-- (void) touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
     // reset back to original value and send no event (unless continuous, then reset)
     [self setSelected:_oldSelected];
