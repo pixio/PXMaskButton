@@ -1,11 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'PXMaskButton', :exclusive => true do
+target 'PXMaskButton' do
   pod "PXMaskButton", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "PXMaskButton", :path => "../"
-
-
 end

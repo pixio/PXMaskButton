@@ -1,1 +1,1 @@
-../../../UIImageUtilities/Pod/Classes/UIImage+Blur.h
+../../../UIImageUtilities/UIImage+Blur.h

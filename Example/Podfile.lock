@@ -1,7 +1,7 @@
 PODS:
-  - PXMaskButton (0.1.0):
+  - PXMaskButton (0.2.0):
     - UIImageUtilities
-  - UIImageUtilities (0.1.1)
+  - UIImageUtilities (0.1.5)
 
 DEPENDENCIES:
   - PXMaskButton (from `../`)
@@ -11,7 +11,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PXMaskButton: c2da157b11e793f0bcf1ca21465f868a949cf47d
-  UIImageUtilities: 0e1b2ea5b320465fedc8506459a9c78834bf0535
+  PXMaskButton: 42f5c1fe9c6befc194c666526f583da4d8327bc4
+  UIImageUtilities: 383bc3906e2191fd60fd69de7d4a6efa25484b74
 
-COCOAPODS: 0.36.4
+PODFILE CHECKSUM: 24716bb2edf5d1eeb525656eb987ee54a389861b
+
+COCOAPODS: 1.2.0

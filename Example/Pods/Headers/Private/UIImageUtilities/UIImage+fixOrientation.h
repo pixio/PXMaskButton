@@ -1,1 +1,1 @@
-../../../UIImageUtilities/Pod/Classes/UIImage+fixOrientation.h
+../../../UIImageUtilities/UIImage+fixOrientation.h

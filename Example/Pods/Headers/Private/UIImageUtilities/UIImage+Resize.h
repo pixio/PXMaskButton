@@ -1,1 +1,1 @@
-../../../UIImageUtilities/Pod/Classes/UIImage+Resize.h
+../../../UIImageUtilities/UIImage+Resize.h

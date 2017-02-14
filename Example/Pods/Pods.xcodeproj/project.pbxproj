@@ -7,944 +7,708 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		038159FBC44DDCC31C4F334B /* PXMaskButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C872A33F90FD9D73C50B0E18 /* PXMaskButton.m */; };
-		04D2F95A8E96CE1CD8D596E6 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD1DD4C9B1FDE3426AF8F0 /* UIImage+Resize.m */; };
-		07C9A60027C2155CB66DA6B2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D92B302B366A1C6E000995D /* Accelerate.framework */; };
-		08E59A0F56C0CCC29F92020C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9185658697785A41F3ED6B11 /* QuartzCore.framework */; };
-		0BDB3ADF8F95F06566A04D0D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9185658697785A41F3ED6B11 /* QuartzCore.framework */; };
-		176287F12B26B0B1148F011A /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1A5F107CD74AD85D6C0485 /* UIImage+Blur.m */; };
-		26A4ABB99904D2761E96DCFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8AFC43A480042A5FEE784 /* Foundation.framework */; };
-		3322C7ED4FB4C0AC4058E2A6 /* UIImage+fixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 22377735C7EA1CF1C600D14D /* UIImage+fixOrientation.h */; };
-		38C4CB268B5A2822FABAEA0A /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D2EE464E039A3C1014E83 /* Pods-Tests-dummy.m */; };
-		3D521A2D5889E341FA456644 /* PXMaskButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B05B867EA2D714A34FE0CA5 /* PXMaskButton.h */; };
-		3DEB4611A6CCFD5EACCFDE88 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FD1DD4C9B1FDE3426AF8F0 /* UIImage+Resize.m */; };
-		4296384A168132BC16CF6802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8AFC43A480042A5FEE784 /* Foundation.framework */; };
-		4394B92EB33DA87CBA098D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8AFC43A480042A5FEE784 /* Foundation.framework */; };
-		51A6A3E8E890D9BF239B9432 /* UIImage+Tinted.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5BAAC2E45685A69B012C9 /* UIImage+Tinted.m */; };
-		53C7398368BEF121B4405B1A /* UIImage+Tinted.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4B2AE15F47067CBF5A1114 /* UIImage+Tinted.h */; };
-		54EA88358EE0671DE8D4678F /* Pods-PXMaskButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1845B6B7A134DF541FD83 /* Pods-PXMaskButton-dummy.m */; };
-		56A5D24B5178F81D760FA9F4 /* UIImage+RoundCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF7AE0A7C01E80E1E0D811B /* UIImage+RoundCorners.h */; };
-		5D3B780A1FAD208FF11A46D2 /* UIImage+Blur.h in Headers */ = {isa = PBXBuildFile; fileRef = 0763D7390CD73390BFAA218F /* UIImage+Blur.h */; };
-		5EB43DD26222886FC8B041BD /* Pods-Tests-UIImageUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23273AEC56B725CF47C6DCCF /* Pods-Tests-UIImageUtilities-dummy.m */; };
-		71443EBA36F9A01124FD9ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8AFC43A480042A5FEE784 /* Foundation.framework */; };
-		72BE985D3DFEF4449F617072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618443180752EFE735383792 /* UIKit.framework */; };
-		77227C2487A5D4297E1CBF87 /* PXMaskButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B05B867EA2D714A34FE0CA5 /* PXMaskButton.h */; };
-		77DBE443B6D32550105A49CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618443180752EFE735383792 /* UIKit.framework */; };
-		783683A2EA544B63E3D5DD5D /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B328037CC27DB5615D9848 /* UIImage+Resize.h */; };
-		79AD82198BF31D4C6A56541B /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9381D0330B78603451A0A118 /* UIImage+fixOrientation.m */; };
-		8045D2DFEE8FB745C1C3253B /* UIImage+RoundCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF7AE0A7C01E80E1E0D811B /* UIImage+RoundCorners.h */; };
-		83266B586DA0373FC02AB2D1 /* PXMaskButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C872A33F90FD9D73C50B0E18 /* PXMaskButton.m */; };
-		83452529E82A92AC9E898653 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618443180752EFE735383792 /* UIKit.framework */; };
-		861E2238FCE46648BD37024D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8AFC43A480042A5FEE784 /* Foundation.framework */; };
-		8E79C25389D1CB2E2F0EC915 /* UIImage+Tinted.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4B2AE15F47067CBF5A1114 /* UIImage+Tinted.h */; };
-		9679CB358B68A73252718A50 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9381D0330B78603451A0A118 /* UIImage+fixOrientation.m */; };
-		97A44B39AA3E00066BA2FDA9 /* Pods-PXMaskButton-UIImageUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 541698E3475D07EFA3F78C0D /* Pods-PXMaskButton-UIImageUtilities-dummy.m */; };
-		A3488EF1C9D7D01D5320760B /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B328037CC27DB5615D9848 /* UIImage+Resize.h */; };
-		A79892FD455D1D1A2D3C5FF0 /* Pods-PXMaskButton-PXMaskButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B7B1E105A7EDF068F498AD /* Pods-PXMaskButton-PXMaskButton-dummy.m */; };
-		AC420875A7DB6480D6257C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8AFC43A480042A5FEE784 /* Foundation.framework */; };
-		AF6DA8412CAFBDD86C3879FB /* UIImage+RoundCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CA14EC03BD567A24DEBFC9 /* UIImage+RoundCorners.m */; };
-		B29286A39BA5876AA9AB5F7A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D92B302B366A1C6E000995D /* Accelerate.framework */; };
-		D01A70FC3CAF581DC9C51BAC /* UIImage+Tinted.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5BAAC2E45685A69B012C9 /* UIImage+Tinted.m */; };
-		D078BCCCBFCCF5D535844574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618443180752EFE735383792 /* UIKit.framework */; };
-		D826995DAC85F99775E36CBB /* UIImage+Blur.h in Headers */ = {isa = PBXBuildFile; fileRef = 0763D7390CD73390BFAA218F /* UIImage+Blur.h */; };
-		D9041931294BCDD14DA0054D /* UIImage+fixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 22377735C7EA1CF1C600D14D /* UIImage+fixOrientation.h */; };
-		D99310BA4DC97D7E52BDD1FA /* UIImage+RoundCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CA14EC03BD567A24DEBFC9 /* UIImage+RoundCorners.m */; };
-		DBA17D301465849EEE164012 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1A5F107CD74AD85D6C0485 /* UIImage+Blur.m */; };
-		E90403A74701450EC2C23A78 /* Pods-Tests-PXMaskButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1671AEDE941332EDBD893DB /* Pods-Tests-PXMaskButton-dummy.m */; };
+		1C9B5FA0E5B8BA0E81DB742D41FFC4FD /* PXMaskButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 31224796E7976284EEC925698A8E73A3 /* PXMaskButton.m */; };
+		3F6A13A6776F125511E52438EFA4F64C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08130D8AB4BB4352F178C03B3A1F0AEF /* QuartzCore.framework */; };
+		47ED78DC78F662DBD5B3A6065BAE3A64 /* UIImageUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E988B9C3162D5DB43FBD4ED1A47C60 /* UIImageUtilities-dummy.m */; };
+		50432F2120A108BECFF92AD2FFC8E688 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7CAE6C83CBE804A4A0B96DB6FDA06B /* UIKit.framework */; };
+		581E255ED802C44D475AD9758DDF9E82 /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = 01811A1CB917B94ECD0CD9CB96534B3A /* UIImage+Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0B4C34EA25A177CD6B9AADCB3AA221 /* PXMaskButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B3D1EE3093EC47B56488A9A633179 /* PXMaskButton-dummy.m */; };
+		84AC754A116CF96A30833321834A60EE /* UIImage+fixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8334C6006FA2AB5D0A5D48A16C99CE /* UIImage+fixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D280EAB1619BC909B768D186144BB78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2971F1745BF1A366533912E496BCCD /* Foundation.framework */; };
+		9CEF2EF905E863C5CD38102396924D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2971F1745BF1A366533912E496BCCD /* Foundation.framework */; };
+		9F7DA3A72B0853CC673B5BD6108799ED /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2076FF54AE99FB04F72A9931B735D954 /* Accelerate.framework */; };
+		B1676CAB90284BDA53ED1B171F32D8A2 /* UIImage+Tinted.m in Sources */ = {isa = PBXBuildFile; fileRef = B93846EB0032229C606C431A05C80E0D /* UIImage+Tinted.m */; };
+		B7B1FBF4B854A334E6233D5231218055 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F03B00B70EC247BAF6B09FFB5683F6C /* UIImage+Resize.m */; };
+		BC17DCE9B684820C0EA5ADEA8CF0F592 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7CAE6C83CBE804A4A0B96DB6FDA06B /* UIKit.framework */; };
+		BE86A1ED49437AA6E779C00B2C58CAAA /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 28937A6C24280E1455C4EE100B911BB2 /* UIImage+Blur.m */; };
+		C017B9A830FAA42A0AD8CDAACA215E12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2971F1745BF1A366533912E496BCCD /* Foundation.framework */; };
+		C0A6E23693CD64B9E62A05C84BBC7015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2971F1745BF1A366533912E496BCCD /* Foundation.framework */; };
+		C26EEA03C8289EDD72E9A35F819535A3 /* UIImage+RoundCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C75284E1ACC8C9927CA6745AE1C95C /* UIImage+RoundCorners.m */; };
+		C3DDE4C910E0C1EB083C153CB3765DD4 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC12C46752724F1238B13419CD5BF6AF /* Pods-Tests-dummy.m */; };
+		CF26B4901A7E4D18DFA66B62EBC89490 /* UIImage+Tinted.h in Headers */ = {isa = PBXBuildFile; fileRef = 5966273B64057673D7B925763BEAC4D4 /* UIImage+Tinted.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB4C4109F23C59248728EECF59BC894 /* Pods-PXMaskButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50172CA3E7A5F1CD105A05E16514C215 /* Pods-PXMaskButton-dummy.m */; };
+		D1055C4BC168746306E28EB489F7ACC7 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4737004B567D38188E1E8B5AC86DD1B3 /* UIImage+fixOrientation.m */; };
+		E0836045ADE91C83AF27511020E50014 /* UIImage+Blur.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FC4964940542B6A7180A14033DCA2F /* UIImage+Blur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF3D6A102FB5C17283247E4B0F2DF129 /* PXMaskButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4CA87879C2CF2737CAE3AE65B1DD48 /* PXMaskButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA2FFFD6F5C81A59EBA58B10F91BC6F /* UIImage+RoundCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DAE414CB3EA08043C38E08E2690CFA /* UIImage+RoundCorners.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F0E47D98BE4723C6D57C320 /* PBXContainerItemProxy */ = {
+		58CB635E112C00C4C46EA5332065D44E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BD8C1023B8BB4812818866D9;
-			remoteInfo = "Pods-Tests-UIImageUtilities-UIImageUtilities";
+			remoteGlobalIDString = 5D68AA9F8EEF3306D8FFF75AECF1F3C2;
+			remoteInfo = PXMaskButton;
 		};
-		411737650F0109399FB6B9CB /* PBXContainerItemProxy */ = {
+		80987B1B488D91930D9B87E7EBF2F2FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 672BC99AE905EA17EA6346CC;
-			remoteInfo = "Pods-Tests-PXMaskButton-MaskView";
+			remoteGlobalIDString = 6F2E547171AABD16EA3EE31455447876;
+			remoteInfo = UIImageUtilities;
 		};
-		48BD974A86793713D24D2136 /* PBXContainerItemProxy */ = {
+		DDD5BA3E8823F62BBB7016D4B7A37464 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E74BF367854F6806C74DE4AC;
-			remoteInfo = "Pods-PXMaskButton-PXMaskButton";
+			remoteGlobalIDString = 6F2E547171AABD16EA3EE31455447876;
+			remoteInfo = UIImageUtilities;
 		};
-		5416EE232A953AF086FC5A53 /* PBXContainerItemProxy */ = {
+		E0A4A30B49A55C4C205FB7FE2DE6ED5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A366BF8845340727BBA5131;
-			remoteInfo = "Pods-PXMaskButton-UIImageUtilities";
+			remoteGlobalIDString = 5D68AA9F8EEF3306D8FFF75AECF1F3C2;
+			remoteInfo = PXMaskButton;
 		};
-		806AF030CD15CEB7ACD41678 /* PBXContainerItemProxy */ = {
+		FAEBC105A5AD30C635DB41B064735731 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E65599F9BB8F2F3F3079473;
-			remoteInfo = "Pods-PXMaskButton-PXMaskButton-MaskView";
-		};
-		85A92B46937520A2A53FE5C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93F5E30F9D3471A1981D1DAA;
-			remoteInfo = "Pods-Tests-UIImageUtilities";
-		};
-		BBBF4CAF2D00C56BAF024155 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93F5E30F9D3471A1981D1DAA;
-			remoteInfo = "Pods-Tests-UIImageUtilities";
-		};
-		D594E75246BB2A6AC56A1EC3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F06277FD2CE89DDD6670ABF;
-			remoteInfo = "Pods-PXMaskButton-UIImageUtilities-UIImageUtilities";
-		};
-		E4C2708F5CD5586419840F26 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A366BF8845340727BBA5131;
-			remoteInfo = "Pods-PXMaskButton-UIImageUtilities";
-		};
-		F06DAAE84C5DA6FFD875E249 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B688F7FDAC2A42AF999CA72 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C511AB0C743BD6FC6AD12216;
-			remoteInfo = "Pods-Tests-PXMaskButton";
+			remoteGlobalIDString = 6F2E547171AABD16EA3EE31455447876;
+			remoteInfo = UIImageUtilities;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019CC3235F9BBFA39EF81C0A /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0763D7390CD73390BFAA218F /* UIImage+Blur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Blur.h"; path = "Pod/Classes/UIImage+Blur.h"; sourceTree = "<group>"; };
-		0A3414808B4D1E5A920A3DAC /* MaskView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B8F2FEC0713EA9D07DC6837 /* MaskView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		15CA14EC03BD567A24DEBFC9 /* UIImage+RoundCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RoundCorners.m"; path = "Pod/Classes/UIImage+RoundCorners.m"; sourceTree = "<group>"; };
-		20B7B1E105A7EDF068F498AD /* Pods-PXMaskButton-PXMaskButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXMaskButton-PXMaskButton-dummy.m"; sourceTree = "<group>"; };
-		22377735C7EA1CF1C600D14D /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+fixOrientation.h"; path = "Pod/Classes/UIImage+fixOrientation.h"; sourceTree = "<group>"; };
-		23273AEC56B725CF47C6DCCF /* Pods-Tests-UIImageUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-UIImageUtilities-dummy.m"; path = "../Pods-Tests-UIImageUtilities/Pods-Tests-UIImageUtilities-dummy.m"; sourceTree = "<group>"; };
-		27A678B59AEDDAB4EBCF061C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2963CF0ADE5D4C8786A80233 /* Pods-PXMaskButton-UIImageUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXMaskButton-UIImageUtilities-Private.xcconfig"; sourceTree = "<group>"; };
-		2CD5BAAC2E45685A69B012C9 /* UIImage+Tinted.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Tinted.m"; path = "Pod/Classes/UIImage+Tinted.m"; sourceTree = "<group>"; };
-		30400FFB62CD84A41FD2B5B7 /* Pods-PXMaskButton-PXMaskButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXMaskButton-PXMaskButton.xcconfig"; sourceTree = "<group>"; };
-		344210E853C932810E4977EA /* Pods-PXMaskButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXMaskButton.debug.xcconfig"; sourceTree = "<group>"; };
-		3B05B867EA2D714A34FE0CA5 /* PXMaskButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXMaskButton.h; sourceTree = "<group>"; };
-		3F62595B235ABE46A82A113D /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43DB598FDE5AC3EC2C3352E4 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4818642F3ADD24CB1D47798F /* Pods-Tests-UIImageUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-UIImageUtilities-prefix.pch"; path = "../Pods-Tests-UIImageUtilities/Pods-Tests-UIImageUtilities-prefix.pch"; sourceTree = "<group>"; };
-		4B2A228CEFD89A9E3444CB09 /* libPods-PXMaskButton-UIImageUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXMaskButton-UIImageUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		541698E3475D07EFA3F78C0D /* Pods-PXMaskButton-UIImageUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXMaskButton-UIImageUtilities-dummy.m"; sourceTree = "<group>"; };
-		55027098DF2520E9810BAF33 /* Pods-Tests-PXMaskButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXMaskButton.xcconfig"; path = "../Pods-Tests-PXMaskButton/Pods-Tests-PXMaskButton.xcconfig"; sourceTree = "<group>"; };
-		618443180752EFE735383792 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		639424B128703637676AB7D8 /* Pods-PXMaskButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXMaskButton-acknowledgements.markdown"; sourceTree = "<group>"; };
-		67F74B324B75AB2C0518FD6E /* libPods-Tests-PXMaskButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXMaskButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D86DB603A938E8CE3CA1FC3 /* libPods-PXMaskButton-PXMaskButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXMaskButton-PXMaskButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BF871A75C2F47A7EEA6CD34 /* UIImageUtilities.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageUtilities.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D92B302B366A1C6E000995D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		83FD1DD4C9B1FDE3426AF8F0 /* UIImage+Resize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "Pod/Classes/UIImage+Resize.m"; sourceTree = "<group>"; };
-		86417B3B30236E21F7C8F6A6 /* Pods-PXMaskButton-UIImageUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXMaskButton-UIImageUtilities.xcconfig"; sourceTree = "<group>"; };
-		8726379133CC4C10A22C0243 /* Pods-PXMaskButton-UIImageUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXMaskButton-UIImageUtilities-prefix.pch"; sourceTree = "<group>"; };
-		8C3D2EE464E039A3C1014E83 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		8C43829EEC6D7495B5D0E7DE /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		8D43834670E23534AA0CEF9D /* Pods-Tests-PXMaskButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXMaskButton-Private.xcconfig"; path = "../Pods-Tests-PXMaskButton/Pods-Tests-PXMaskButton-Private.xcconfig"; sourceTree = "<group>"; };
-		915D42D812FE6F28225D8AF8 /* Pods-PXMaskButton-PXMaskButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXMaskButton-PXMaskButton-Private.xcconfig"; sourceTree = "<group>"; };
-		9185658697785A41F3ED6B11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		9381D0330B78603451A0A118 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+fixOrientation.m"; path = "Pod/Classes/UIImage+fixOrientation.m"; sourceTree = "<group>"; };
-		96AC9C126D2ED6AAEDD50116 /* libPods-PXMaskButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXMaskButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B495D6CCE5793DF54B63FA4 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		9D4B2AE15F47067CBF5A1114 /* UIImage+Tinted.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Tinted.h"; path = "Pod/Classes/UIImage+Tinted.h"; sourceTree = "<group>"; };
-		A2E6DD8EC72A6E5D06E94154 /* UIImageUtilities.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageUtilities.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3F452CD5624D5CBC3C8051C /* libPods-Tests-UIImageUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-UIImageUtilities.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7B328037CC27DB5615D9848 /* UIImage+Resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "Pod/Classes/UIImage+Resize.h"; sourceTree = "<group>"; };
-		A8A3D8844622F4DC423A9606 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB2C038C136736993A6DED2C /* Pods-Tests-PXMaskButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXMaskButton-prefix.pch"; path = "../Pods-Tests-PXMaskButton/Pods-Tests-PXMaskButton-prefix.pch"; sourceTree = "<group>"; };
-		C01F80CCB4EE51C04EE78C36 /* Pods-PXMaskButton-PXMaskButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXMaskButton-PXMaskButton-prefix.pch"; sourceTree = "<group>"; };
-		C872A33F90FD9D73C50B0E18 /* PXMaskButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXMaskButton.m; sourceTree = "<group>"; };
-		CC6D7FB7035A7113F674EA8D /* Pods-Tests-UIImageUtilities-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-UIImageUtilities-Private.xcconfig"; path = "../Pods-Tests-UIImageUtilities/Pods-Tests-UIImageUtilities-Private.xcconfig"; sourceTree = "<group>"; };
-		D1671AEDE941332EDBD893DB /* Pods-Tests-PXMaskButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXMaskButton-dummy.m"; path = "../Pods-Tests-PXMaskButton/Pods-Tests-PXMaskButton-dummy.m"; sourceTree = "<group>"; };
-		D221F528F89ADB3493BF557A /* Pods-PXMaskButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXMaskButton-resources.sh"; sourceTree = "<group>"; };
-		DD77D0F95758DCC19C2FD75D /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DDF7AE0A7C01E80E1E0D811B /* UIImage+RoundCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RoundCorners.h"; path = "Pod/Classes/UIImage+RoundCorners.h"; sourceTree = "<group>"; };
-		DDF8AFC43A480042A5FEE784 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E13D39E88476E20ED4AE3029 /* Pods-PXMaskButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXMaskButton-acknowledgements.plist"; sourceTree = "<group>"; };
-		ECC5F945B811C07B27644730 /* Pods-Tests-UIImageUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-UIImageUtilities.xcconfig"; path = "../Pods-Tests-UIImageUtilities/Pods-Tests-UIImageUtilities.xcconfig"; sourceTree = "<group>"; };
-		F8B1845B6B7A134DF541FD83 /* Pods-PXMaskButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXMaskButton-dummy.m"; sourceTree = "<group>"; };
-		F8F40977E57FE3B318C18101 /* Pods-PXMaskButton-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXMaskButton-environment.h"; sourceTree = "<group>"; };
-		FAAB9C0D004C52E9EAA22066 /* Pods-PXMaskButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXMaskButton.release.xcconfig"; sourceTree = "<group>"; };
-		FF1A5F107CD74AD85D6C0485 /* UIImage+Blur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Blur.m"; path = "Pod/Classes/UIImage+Blur.m"; sourceTree = "<group>"; };
+		01811A1CB917B94ECD0CD9CB96534B3A /* UIImage+Resize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		08130D8AB4BB4352F178C03B3A1F0AEF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		09FC4964940542B6A7180A14033DCA2F /* UIImage+Blur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		2076FF54AE99FB04F72A9931B735D954 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		220BD6E308B7B60E4D5331AA7F05A8A8 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		250D3F73F2A9836FB948AC44CE2339F9 /* libPods-PXMaskButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXMaskButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28937A6C24280E1455C4EE100B911BB2 /* UIImage+Blur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		2F4CA87879C2CF2737CAE3AE65B1DD48 /* PXMaskButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXMaskButton.h; sourceTree = "<group>"; };
+		31224796E7976284EEC925698A8E73A3 /* PXMaskButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXMaskButton.m; sourceTree = "<group>"; };
+		390E0335AF00F0490F38C887CC224242 /* Pods-PXMaskButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXMaskButton-resources.sh"; sourceTree = "<group>"; };
+		3D84EDD636958291642311FE03E8006F /* Pods-PXMaskButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXMaskButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4737004B567D38188E1E8B5AC86DD1B3 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		50172CA3E7A5F1CD105A05E16514C215 /* Pods-PXMaskButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXMaskButton-dummy.m"; sourceTree = "<group>"; };
+		52BB22E7E6680B8D6ADB9E9DD373A764 /* UIImageUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIImageUtilities.xcconfig; sourceTree = "<group>"; };
+		58C75284E1ACC8C9927CA6745AE1C95C /* UIImage+RoundCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundCorners.m"; sourceTree = "<group>"; };
+		5966273B64057673D7B925763BEAC4D4 /* UIImage+Tinted.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tinted.h"; sourceTree = "<group>"; };
+		67DAE414CB3EA08043C38E08E2690CFA /* UIImage+RoundCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundCorners.h"; sourceTree = "<group>"; };
+		691F19B42367023D5A943FF0C1F10935 /* Pods-PXMaskButton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXMaskButton-frameworks.sh"; sourceTree = "<group>"; };
+		77470133847F50EDD1CA0F1913D501B1 /* PXMaskButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXMaskButton.xcconfig; sourceTree = "<group>"; };
+		7B1B3D1EE3093EC47B56488A9A633179 /* PXMaskButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXMaskButton-dummy.m"; sourceTree = "<group>"; };
+		8CA73AF3CBA21BB7759ABD7BBB77D677 /* Pods-PXMaskButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXMaskButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F03B00B70EC247BAF6B09FFB5683F6C /* UIImage+Resize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98620727CB45865027BE0167E2F7E91F /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		986BF67BC7B00920267D4DA938D79B46 /* Pods-PXMaskButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXMaskButton.debug.xcconfig"; sourceTree = "<group>"; };
+		99278D85622A8E359707B2E28B4C850B /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC12C46752724F1238B13419CD5BF6AF /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		AD7CAE6C83CBE804A4A0B96DB6FDA06B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AE2971F1745BF1A366533912E496BCCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AE8321413FC4E55F09E86AF94E9AED90 /* UIImageUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageUtilities-prefix.pch"; sourceTree = "<group>"; };
+		B35DBD50A885EC8457B230AD8D70DE3D /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		B4E988B9C3162D5DB43FBD4ED1A47C60 /* UIImageUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageUtilities-dummy.m"; sourceTree = "<group>"; };
+		B5242D3D2E35AF6AE38C4A54058C86BA /* PXMaskButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXMaskButton-prefix.pch"; sourceTree = "<group>"; };
+		B93846EB0032229C606C431A05C80E0D /* UIImage+Tinted.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tinted.m"; sourceTree = "<group>"; };
+		C576A11212C564476AA8947EFDA5C01B /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC0EEBCD53654666F50412831C6CA518 /* Pods-PXMaskButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXMaskButton.release.xcconfig"; sourceTree = "<group>"; };
+		DC7C0BE4421BB6E98BC8A3E79698585E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB1F8059B17745258AEDD1758B787C2 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E67719E50F88A91DCDCE7DAC19A73716 /* libPXMaskButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPXMaskButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8334C6006FA2AB5D0A5D48A16C99CE /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		FE73D41DA3E7AA7D894812775D1F3226 /* libUIImageUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIImageUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B4F545FA5A1373FC36A5417 /* Frameworks */ = {
+		54ACD8A786E25EAFD09094C20C861DCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7DA3A72B0853CC673B5BD6108799ED /* Accelerate.framework in Frameworks */,
+				C0A6E23693CD64B9E62A05C84BBC7015 /* Foundation.framework in Frameworks */,
+				BC17DCE9B684820C0EA5ADEA8CF0F592 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BFDD9D0FE33ADA74B76FBA5 /* Frameworks */ = {
+		9DB7E2A7CB20F9B877780FF629CC6DB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C017B9A830FAA42A0AD8CDAACA215E12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34D72D93B9D5FCDF52F47798 /* Frameworks */ = {
+		A5A86CEBF4F6DE7019F65E96A99B19BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B29286A39BA5876AA9AB5F7A /* Accelerate.framework in Frameworks */,
-				4296384A168132BC16CF6802 /* Foundation.framework in Frameworks */,
-				77DBE443B6D32550105A49CF /* UIKit.framework in Frameworks */,
+				8D280EAB1619BC909B768D186144BB78 /* Foundation.framework in Frameworks */,
+				3F6A13A6776F125511E52438EFA4F64C /* QuartzCore.framework in Frameworks */,
+				50432F2120A108BECFF92AD2FFC8E688 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		454723A7C01911CA35D2D5A3 /* Frameworks */ = {
+		ADF2E27021EE7F0D4AF54F0946F705AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26A4ABB99904D2761E96DCFA /* Foundation.framework in Frameworks */,
-				0BDB3ADF8F95F06566A04D0D /* QuartzCore.framework in Frameworks */,
-				D078BCCCBFCCF5D535844574 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		604ECAA033F1F74CD4C606CA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62B68C2F3C8487031A8B152A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82EB279C5571F0424244FC15 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07C9A60027C2155CB66DA6B2 /* Accelerate.framework in Frameworks */,
-				71443EBA36F9A01124FD9ADE /* Foundation.framework in Frameworks */,
-				72BE985D3DFEF4449F617072 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E573AA2245849F8CD0E064A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC420875A7DB6480D6257C98 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B04FDD1FF59FFC210D3C037D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				861E2238FCE46648BD37024D /* Foundation.framework in Frameworks */,
-				08E59A0F56C0CCC29F92020C /* QuartzCore.framework in Frameworks */,
-				83452529E82A92AC9E898653 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF44E3F0D805A415CF893B25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4394B92EB33DA87CBA098D80 /* Foundation.framework in Frameworks */,
+				9CEF2EF905E863C5CD38102396924D6D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13BD57D984F99B3433A98036 /* iOS */ = {
+		0290AC5201E6E8C1116C3E88327570EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D92B302B366A1C6E000995D /* Accelerate.framework */,
-				DDF8AFC43A480042A5FEE784 /* Foundation.framework */,
-				9185658697785A41F3ED6B11 /* QuartzCore.framework */,
-				618443180752EFE735383792 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2AADB4D36688AB402E11F839 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C3730343276F8DA5EED56C8 /* Pods-PXMaskButton */,
-				A5B1FBED17A662A9FC82E7BA /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		45E7E89C75C0A7AA1AE244C9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				86417B3B30236E21F7C8F6A6 /* Pods-PXMaskButton-UIImageUtilities.xcconfig */,
-				2963CF0ADE5D4C8786A80233 /* Pods-PXMaskButton-UIImageUtilities-Private.xcconfig */,
-				541698E3475D07EFA3F78C0D /* Pods-PXMaskButton-UIImageUtilities-dummy.m */,
-				8726379133CC4C10A22C0243 /* Pods-PXMaskButton-UIImageUtilities-prefix.pch */,
-				ECC5F945B811C07B27644730 /* Pods-Tests-UIImageUtilities.xcconfig */,
-				CC6D7FB7035A7113F674EA8D /* Pods-Tests-UIImageUtilities-Private.xcconfig */,
-				23273AEC56B725CF47C6DCCF /* Pods-Tests-UIImageUtilities-dummy.m */,
-				4818642F3ADD24CB1D47798F /* Pods-Tests-UIImageUtilities-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-PXMaskButton-UIImageUtilities";
-			sourceTree = "<group>";
-		};
-		4B64CC5B5AFC848FD6FDF356 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0A3414808B4D1E5A920A3DAC /* MaskView.bundle */,
-				0B8F2FEC0713EA9D07DC6837 /* MaskView.bundle */,
-				A2E6DD8EC72A6E5D06E94154 /* UIImageUtilities.bundle */,
-				7BF871A75C2F47A7EEA6CD34 /* UIImageUtilities.bundle */,
-				96AC9C126D2ED6AAEDD50116 /* libPods-PXMaskButton.a */,
-				6D86DB603A938E8CE3CA1FC3 /* libPods-PXMaskButton-PXMaskButton.a */,
-				4B2A228CEFD89A9E3444CB09 /* libPods-PXMaskButton-UIImageUtilities.a */,
-				3F62595B235ABE46A82A113D /* libPods-Tests.a */,
-				67F74B324B75AB2C0518FD6E /* libPods-Tests-PXMaskButton.a */,
-				A3F452CD5624D5CBC3C8051C /* libPods-Tests-UIImageUtilities.a */,
+				250D3F73F2A9836FB948AC44CE2339F9 /* libPods-PXMaskButton.a */,
+				220BD6E308B7B60E4D5331AA7F05A8A8 /* libPods-Tests.a */,
+				E67719E50F88A91DCDCE7DAC19A73716 /* libPXMaskButton.a */,
+				FE73D41DA3E7AA7D894812775D1F3226 /* libUIImageUtilities.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7083C41A1D6C23C98B66F2C4 /* Classes */ = {
+		0D75E4E35DFD51D4FA13BAF45995ECF0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B05B867EA2D714A34FE0CA5 /* PXMaskButton.h */,
-				C872A33F90FD9D73C50B0E18 /* PXMaskButton.m */,
+				52BB22E7E6680B8D6ADB9E9DD373A764 /* UIImageUtilities.xcconfig */,
+				B4E988B9C3162D5DB43FBD4ED1A47C60 /* UIImageUtilities-dummy.m */,
+				AE8321413FC4E55F09E86AF94E9AED90 /* UIImageUtilities-prefix.pch */,
 			);
-			path = Classes;
+			name = "Support Files";
+			path = "../Target Support Files/UIImageUtilities";
 			sourceTree = "<group>";
 		};
-		73D0D3AE5EB69694FC487130 /* Development Pods */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CBD286C892197E2FCBD031CF /* PXMaskButton */,
+				9217ED0050D5DB26A7D02FF4D0285476 /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9C3730343276F8DA5EED56C8 /* Pods-PXMaskButton */ = {
+		1A5453A1D820F12BB4F11CAB12183BFE /* Pods-PXMaskButton */ = {
 			isa = PBXGroup;
 			children = (
-				639424B128703637676AB7D8 /* Pods-PXMaskButton-acknowledgements.markdown */,
-				E13D39E88476E20ED4AE3029 /* Pods-PXMaskButton-acknowledgements.plist */,
-				F8B1845B6B7A134DF541FD83 /* Pods-PXMaskButton-dummy.m */,
-				F8F40977E57FE3B318C18101 /* Pods-PXMaskButton-environment.h */,
-				D221F528F89ADB3493BF557A /* Pods-PXMaskButton-resources.sh */,
-				344210E853C932810E4977EA /* Pods-PXMaskButton.debug.xcconfig */,
-				FAAB9C0D004C52E9EAA22066 /* Pods-PXMaskButton.release.xcconfig */,
+				3D84EDD636958291642311FE03E8006F /* Pods-PXMaskButton-acknowledgements.markdown */,
+				8CA73AF3CBA21BB7759ABD7BBB77D677 /* Pods-PXMaskButton-acknowledgements.plist */,
+				50172CA3E7A5F1CD105A05E16514C215 /* Pods-PXMaskButton-dummy.m */,
+				691F19B42367023D5A943FF0C1F10935 /* Pods-PXMaskButton-frameworks.sh */,
+				390E0335AF00F0490F38C887CC224242 /* Pods-PXMaskButton-resources.sh */,
+				986BF67BC7B00920267D4DA938D79B46 /* Pods-PXMaskButton.debug.xcconfig */,
+				CC0EEBCD53654666F50412831C6CA518 /* Pods-PXMaskButton.release.xcconfig */,
 			);
 			name = "Pods-PXMaskButton";
 			path = "Target Support Files/Pods-PXMaskButton";
 			sourceTree = "<group>";
 		};
-		A07BB5528557446E168DBB2E = {
+		2ADE66C693FD3097E7A5C13D0621119E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				27A678B59AEDDAB4EBCF061C /* Podfile */,
-				73D0D3AE5EB69694FC487130 /* Development Pods */,
-				AF0D0C4401BF37384C943C51 /* Frameworks */,
-				F9E28C3B8FF0E828C9622A05 /* Pods */,
-				4B64CC5B5AFC848FD6FDF356 /* Products */,
-				2AADB4D36688AB402E11F839 /* Targets Support Files */,
+				1A5453A1D820F12BB4F11CAB12183BFE /* Pods-PXMaskButton */,
+				887B49DD59674F3B19E5221AD8D422BC /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F8865DFED8AEA233AFDBBDBB2FB3508 /* UIImageUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				09FC4964940542B6A7180A14033DCA2F /* UIImage+Blur.h */,
+				28937A6C24280E1455C4EE100B911BB2 /* UIImage+Blur.m */,
+				FC8334C6006FA2AB5D0A5D48A16C99CE /* UIImage+fixOrientation.h */,
+				4737004B567D38188E1E8B5AC86DD1B3 /* UIImage+fixOrientation.m */,
+				01811A1CB917B94ECD0CD9CB96534B3A /* UIImage+Resize.h */,
+				8F03B00B70EC247BAF6B09FFB5683F6C /* UIImage+Resize.m */,
+				67DAE414CB3EA08043C38E08E2690CFA /* UIImage+RoundCorners.h */,
+				58C75284E1ACC8C9927CA6745AE1C95C /* UIImage+RoundCorners.m */,
+				5966273B64057673D7B925763BEAC4D4 /* UIImage+Tinted.h */,
+				B93846EB0032229C606C431A05C80E0D /* UIImage+Tinted.m */,
+				0D75E4E35DFD51D4FA13BAF45995ECF0 /* Support Files */,
+			);
+			path = UIImageUtilities;
+			sourceTree = "<group>";
+		};
+		595E29FD4B3A883C4EFA7A3FCFB9DCE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77470133847F50EDD1CA0F1913D501B1 /* PXMaskButton.xcconfig */,
+				7B1B3D1EE3093EC47B56488A9A633179 /* PXMaskButton-dummy.m */,
+				B5242D3D2E35AF6AE38C4A54058C86BA /* PXMaskButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PXMaskButton";
+			sourceTree = "<group>";
+		};
+		63E007F90C5729A7FF1B6E9352B3BBA6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F4CA87879C2CF2737CAE3AE65B1DD48 /* PXMaskButton.h */,
+				31224796E7976284EEC925698A8E73A3 /* PXMaskButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6B3FC1B6C05973A2E48EDA9B6DF067B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D25CD21B4F782F8B448E4F5B12A8EB70 /* PXMaskButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6B3FC1B6C05973A2E48EDA9B6DF067B2 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				D3DF4814325B9E068E936110B023F597 /* Pods */,
+				0290AC5201E6E8C1116C3E88327570EE /* Products */,
+				2ADE66C693FD3097E7A5C13D0621119E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A5B1FBED17A662A9FC82E7BA /* Pods-Tests */ = {
+		887B49DD59674F3B19E5221AD8D422BC /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A8A3D8844622F4DC423A9606 /* Pods-Tests-acknowledgements.markdown */,
-				019CC3235F9BBFA39EF81C0A /* Pods-Tests-acknowledgements.plist */,
-				8C3D2EE464E039A3C1014E83 /* Pods-Tests-dummy.m */,
-				9B495D6CCE5793DF54B63FA4 /* Pods-Tests-environment.h */,
-				8C43829EEC6D7495B5D0E7DE /* Pods-Tests-resources.sh */,
-				43DB598FDE5AC3EC2C3352E4 /* Pods-Tests.debug.xcconfig */,
-				DD77D0F95758DCC19C2FD75D /* Pods-Tests.release.xcconfig */,
+				99278D85622A8E359707B2E28B4C850B /* Pods-Tests-acknowledgements.markdown */,
+				DEB1F8059B17745258AEDD1758B787C2 /* Pods-Tests-acknowledgements.plist */,
+				AC12C46752724F1238B13419CD5BF6AF /* Pods-Tests-dummy.m */,
+				98620727CB45865027BE0167E2F7E91F /* Pods-Tests-frameworks.sh */,
+				B35DBD50A885EC8457B230AD8D70DE3D /* Pods-Tests-resources.sh */,
+				DC7C0BE4421BB6E98BC8A3E79698585E /* Pods-Tests.debug.xcconfig */,
+				C576A11212C564476AA8947EFDA5C01B /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		AF0D0C4401BF37384C943C51 /* Frameworks */ = {
+		9217ED0050D5DB26A7D02FF4D0285476 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				13BD57D984F99B3433A98036 /* iOS */,
+				2076FF54AE99FB04F72A9931B735D954 /* Accelerate.framework */,
+				AE2971F1745BF1A366533912E496BCCD /* Foundation.framework */,
+				08130D8AB4BB4352F178C03B3A1F0AEF /* QuartzCore.framework */,
+				AD7CAE6C83CBE804A4A0B96DB6FDA06B /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		CAEDB3EE2FE97C03F0251796 /* Support Files */ = {
+		D25CD21B4F782F8B448E4F5B12A8EB70 /* PXMaskButton */ = {
 			isa = PBXGroup;
 			children = (
-				30400FFB62CD84A41FD2B5B7 /* Pods-PXMaskButton-PXMaskButton.xcconfig */,
-				915D42D812FE6F28225D8AF8 /* Pods-PXMaskButton-PXMaskButton-Private.xcconfig */,
-				20B7B1E105A7EDF068F498AD /* Pods-PXMaskButton-PXMaskButton-dummy.m */,
-				C01F80CCB4EE51C04EE78C36 /* Pods-PXMaskButton-PXMaskButton-prefix.pch */,
-				55027098DF2520E9810BAF33 /* Pods-Tests-PXMaskButton.xcconfig */,
-				8D43834670E23534AA0CEF9D /* Pods-Tests-PXMaskButton-Private.xcconfig */,
-				D1671AEDE941332EDBD893DB /* Pods-Tests-PXMaskButton-dummy.m */,
-				BB2C038C136736993A6DED2C /* Pods-Tests-PXMaskButton-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-PXMaskButton-PXMaskButton";
-			sourceTree = "<group>";
-		};
-		CBD286C892197E2FCBD031CF /* PXMaskButton */ = {
-			isa = PBXGroup;
-			children = (
-				CD5324E7AF6832558354BC55 /* Pod */,
-				CAEDB3EE2FE97C03F0251796 /* Support Files */,
+				F36DB1AE6C465C15E11FD32DBC0BF341 /* Pod */,
+				595E29FD4B3A883C4EFA7A3FCFB9DCE9 /* Support Files */,
 			);
 			name = PXMaskButton;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CD5324E7AF6832558354BC55 /* Pod */ = {
+		D3DF4814325B9E068E936110B023F597 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7083C41A1D6C23C98B66F2C4 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		F9E28C3B8FF0E828C9622A05 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FD3F48BBC8D964BBBA146985 /* UIImageUtilities */,
+				3F8865DFED8AEA233AFDBBDBB2FB3508 /* UIImageUtilities */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FD3F48BBC8D964BBBA146985 /* UIImageUtilities */ = {
+		F36DB1AE6C465C15E11FD32DBC0BF341 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0763D7390CD73390BFAA218F /* UIImage+Blur.h */,
-				FF1A5F107CD74AD85D6C0485 /* UIImage+Blur.m */,
-				A7B328037CC27DB5615D9848 /* UIImage+Resize.h */,
-				83FD1DD4C9B1FDE3426AF8F0 /* UIImage+Resize.m */,
-				DDF7AE0A7C01E80E1E0D811B /* UIImage+RoundCorners.h */,
-				15CA14EC03BD567A24DEBFC9 /* UIImage+RoundCorners.m */,
-				9D4B2AE15F47067CBF5A1114 /* UIImage+Tinted.h */,
-				2CD5BAAC2E45685A69B012C9 /* UIImage+Tinted.m */,
-				22377735C7EA1CF1C600D14D /* UIImage+fixOrientation.h */,
-				9381D0330B78603451A0A118 /* UIImage+fixOrientation.m */,
-				45E7E89C75C0A7AA1AE244C9 /* Support Files */,
+				63E007F90C5729A7FF1B6E9352B3BBA6 /* Classes */,
 			);
-			path = UIImageUtilities;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4FA5C068D8CF9A9770BCD4B1 /* Headers */ = {
+		0A44BA49CA707568DD9E63D9B0C0030B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D521A2D5889E341FA456644 /* PXMaskButton.h in Headers */,
+				E0836045ADE91C83AF27511020E50014 /* UIImage+Blur.h in Headers */,
+				84AC754A116CF96A30833321834A60EE /* UIImage+fixOrientation.h in Headers */,
+				581E255ED802C44D475AD9758DDF9E82 /* UIImage+Resize.h in Headers */,
+				FEA2FFFD6F5C81A59EBA58B10F91BC6F /* UIImage+RoundCorners.h in Headers */,
+				CF26B4901A7E4D18DFA66B62EBC89490 /* UIImage+Tinted.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		640FC3DD89AC23BBAEDB328A /* Headers */ = {
+		266A9BE73594726783C0CD0C5286723B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77227C2487A5D4297E1CBF87 /* PXMaskButton.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84618DC9990ECD50F31F95A2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D826995DAC85F99775E36CBB /* UIImage+Blur.h in Headers */,
-				A3488EF1C9D7D01D5320760B /* UIImage+Resize.h in Headers */,
-				8045D2DFEE8FB745C1C3253B /* UIImage+RoundCorners.h in Headers */,
-				8E79C25389D1CB2E2F0EC915 /* UIImage+Tinted.h in Headers */,
-				3322C7ED4FB4C0AC4058E2A6 /* UIImage+fixOrientation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD307E68C2693A31E35E1598 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D3B780A1FAD208FF11A46D2 /* UIImage+Blur.h in Headers */,
-				783683A2EA544B63E3D5DD5D /* UIImage+Resize.h in Headers */,
-				56A5D24B5178F81D760FA9F4 /* UIImage+RoundCorners.h in Headers */,
-				53C7398368BEF121B4405B1A /* UIImage+Tinted.h in Headers */,
-				D9041931294BCDD14DA0054D /* UIImage+fixOrientation.h in Headers */,
+				EF3D6A102FB5C17283247E4B0F2DF129 /* PXMaskButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2C8E775A4F670A25C24B28A6 /* Pods-Tests */ = {
+		5D68AA9F8EEF3306D8FFF75AECF1F3C2 /* PXMaskButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 158111E9A1DD47FD7BC6E3C3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = ED3DFCE1B9A8BCCAB378361254A6EDB4 /* Build configuration list for PBXNativeTarget "PXMaskButton" */;
 			buildPhases = (
-				C3433646D0763F00B0D4D184 /* Sources */,
-				9E573AA2245849F8CD0E064A /* Frameworks */,
+				68AEBD484E54D13D807E3707BE75BE4C /* Sources */,
+				A5A86CEBF4F6DE7019F65E96A99B19BA /* Frameworks */,
+				266A9BE73594726783C0CD0C5286723B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				77915EF837F9FC7554CEC4DB /* PBXTargetDependency */,
-				E090B901949CB6AA36FA9DA9 /* PBXTargetDependency */,
+				8A74E5C90E40385F364A84D75A6D8379 /* PBXTargetDependency */,
+			);
+			name = PXMaskButton;
+			productName = PXMaskButton;
+			productReference = E67719E50F88A91DCDCE7DAC19A73716 /* libPXMaskButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6F2E547171AABD16EA3EE31455447876 /* UIImageUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2A21A9897047A130E386EF144CACE9 /* Build configuration list for PBXNativeTarget "UIImageUtilities" */;
+			buildPhases = (
+				00DDBEFF103346C09ACD4CF8A776470F /* Sources */,
+				54ACD8A786E25EAFD09094C20C861DCD /* Frameworks */,
+				0A44BA49CA707568DD9E63D9B0C0030B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImageUtilities;
+			productName = UIImageUtilities;
+			productReference = FE73D41DA3E7AA7D894812775D1F3226 /* libUIImageUtilities.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBEC877E6F7CC13DC633808C129BBB7E /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A580583F96194F366C16ECC621A5C3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				F8307C548B101E4B30A4ACFC77C44397 /* Sources */,
+				ADF2E27021EE7F0D4AF54F0946F705AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0689C0264662A855B840D5B175817A6 /* PBXTargetDependency */,
+				26F34AFAED252A4C7A26113F148E6A66 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = 3F62595B235ABE46A82A113D /* libPods-Tests.a */;
+			productReference = 220BD6E308B7B60E4D5331AA7F05A8A8 /* libPods-Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		3E65599F9BB8F2F3F3079473 /* Pods-PXMaskButton-PXMaskButton-MaskView */ = {
+		E85B5A54F3DA0B32ADFFD14F95C62BD7 /* Pods-PXMaskButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A89577B8399FB52BAF228CCD /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton-PXMaskButton-MaskView" */;
+			buildConfigurationList = 9D0CB6A4AF5C7E5DC83D36E7459DD005 /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton" */;
 			buildPhases = (
-				DD5281A78B94F8C59344F00C /* Sources */,
-				604ECAA033F1F74CD4C606CA /* Frameworks */,
-				4978D385106789FBDEF572AD /* Resources */,
+				F8166E6A2C23E8ABAD8C35CD3836B1BA /* Sources */,
+				9DB7E2A7CB20F9B877780FF629CC6DB8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-PXMaskButton-PXMaskButton-MaskView";
-			productName = "Pods-PXMaskButton-PXMaskButton-MaskView";
-			productReference = 0B8F2FEC0713EA9D07DC6837 /* MaskView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		3F06277FD2CE89DDD6670ABF /* Pods-PXMaskButton-UIImageUtilities-UIImageUtilities */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 650299BF23BAA44FC1D0DD29 /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton-UIImageUtilities-UIImageUtilities" */;
-			buildPhases = (
-				4125F1FE2E0AA4989FE233A2 /* Sources */,
-				62B68C2F3C8487031A8B152A /* Frameworks */,
-				482DC28D1AE166DED507441D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PXMaskButton-UIImageUtilities-UIImageUtilities";
-			productName = "Pods-PXMaskButton-UIImageUtilities-UIImageUtilities";
-			productReference = 7BF871A75C2F47A7EEA6CD34 /* UIImageUtilities.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		6479EC8C54B5C5A771168C2B /* Pods-PXMaskButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A00AB30ED33DCB9B1DB69476 /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton" */;
-			buildPhases = (
-				1EC6F5F8187824E969304B32 /* Sources */,
-				DF44E3F0D805A415CF893B25 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C3B1E9207A16B0DE2E794E35 /* PBXTargetDependency */,
-				20A25597C3EFADBBAC5699C4 /* PBXTargetDependency */,
+				9FA750EE7F69DA45C1A93C4D96E5B457 /* PBXTargetDependency */,
+				50D2293E4E5B717573B82236E4FC127F /* PBXTargetDependency */,
 			);
 			name = "Pods-PXMaskButton";
 			productName = "Pods-PXMaskButton";
-			productReference = 96AC9C126D2ED6AAEDD50116 /* libPods-PXMaskButton.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		672BC99AE905EA17EA6346CC /* Pods-Tests-PXMaskButton-MaskView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C62F4F7523029356A1BF2B2 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXMaskButton-MaskView" */;
-			buildPhases = (
-				2C48C68DDE9305F38403D0D8 /* Sources */,
-				0B4F545FA5A1373FC36A5417 /* Frameworks */,
-				8585A3CB614B55FBB4646BB3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Tests-PXMaskButton-MaskView";
-			productName = "Pods-Tests-PXMaskButton-MaskView";
-			productReference = 0A3414808B4D1E5A920A3DAC /* MaskView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		8A366BF8845340727BBA5131 /* Pods-PXMaskButton-UIImageUtilities */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 44C6CD84E4DEBD7C48E86D9D /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton-UIImageUtilities" */;
-			buildPhases = (
-				85D0DFBBBFE0274A699B366A /* Sources */,
-				34D72D93B9D5FCDF52F47798 /* Frameworks */,
-				FD307E68C2693A31E35E1598 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5451639FE45D7E29D7302AA0 /* PBXTargetDependency */,
-			);
-			name = "Pods-PXMaskButton-UIImageUtilities";
-			productName = "Pods-PXMaskButton-UIImageUtilities";
-			productReference = 4B2A228CEFD89A9E3444CB09 /* libPods-PXMaskButton-UIImageUtilities.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		93F5E30F9D3471A1981D1DAA /* Pods-Tests-UIImageUtilities */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B55B01401A73242BBDC1C0C5 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIImageUtilities" */;
-			buildPhases = (
-				36B2DFBE212ECCF5C47583DE /* Sources */,
-				82EB279C5571F0424244FC15 /* Frameworks */,
-				84618DC9990ECD50F31F95A2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0342114DD5602EBDD286F727 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-UIImageUtilities";
-			productName = "Pods-Tests-UIImageUtilities";
-			productReference = A3F452CD5624D5CBC3C8051C /* libPods-Tests-UIImageUtilities.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		BD8C1023B8BB4812818866D9 /* Pods-Tests-UIImageUtilities-UIImageUtilities */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5AF369C87D29610C71C8BD6 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIImageUtilities-UIImageUtilities" */;
-			buildPhases = (
-				3E4E18CA2B5892E5AF9E5300 /* Sources */,
-				2BFDD9D0FE33ADA74B76FBA5 /* Frameworks */,
-				0948F708D65C178213842B28 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Tests-UIImageUtilities-UIImageUtilities";
-			productName = "Pods-Tests-UIImageUtilities-UIImageUtilities";
-			productReference = A2E6DD8EC72A6E5D06E94154 /* UIImageUtilities.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		C511AB0C743BD6FC6AD12216 /* Pods-Tests-PXMaskButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA9E360F2F16725DBFB991FF /* Build configuration list for PBXNativeTarget "Pods-Tests-PXMaskButton" */;
-			buildPhases = (
-				AD60C80F0BCF7CAE1202D1CE /* Sources */,
-				B04FDD1FF59FFC210D3C037D /* Frameworks */,
-				4FA5C068D8CF9A9770BCD4B1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3122CA128D9124333BAD19BE /* PBXTargetDependency */,
-				2EA3C7533B6C6CFC9C4DA099 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-PXMaskButton";
-			productName = "Pods-Tests-PXMaskButton";
-			productReference = 67F74B324B75AB2C0518FD6E /* libPods-Tests-PXMaskButton.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E74BF367854F6806C74DE4AC /* Pods-PXMaskButton-PXMaskButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65CB7F0BBA59C67F3B8525C4 /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton-PXMaskButton" */;
-			buildPhases = (
-				8BFE59579BF0B1C08A26A3FE /* Sources */,
-				454723A7C01911CA35D2D5A3 /* Frameworks */,
-				640FC3DD89AC23BBAEDB328A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47632B5A7A24C0D619F8A5A1 /* PBXTargetDependency */,
-				A654C752282193D2641AFC9A /* PBXTargetDependency */,
-			);
-			name = "Pods-PXMaskButton-PXMaskButton";
-			productName = "Pods-PXMaskButton-PXMaskButton";
-			productReference = 6D86DB603A938E8CE3CA1FC3 /* libPods-PXMaskButton-PXMaskButton.a */;
+			productReference = 250D3F73F2A9836FB948AC44CE2339F9 /* libPods-PXMaskButton.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4B688F7FDAC2A42AF999CA72 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
 			};
-			buildConfigurationList = F28CDEC97BC9107E0DF94E48 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A07BB5528557446E168DBB2E;
-			productRefGroup = 4B64CC5B5AFC848FD6FDF356 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0290AC5201E6E8C1116C3E88327570EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6479EC8C54B5C5A771168C2B /* Pods-PXMaskButton */,
-				E74BF367854F6806C74DE4AC /* Pods-PXMaskButton-PXMaskButton */,
-				3E65599F9BB8F2F3F3079473 /* Pods-PXMaskButton-PXMaskButton-MaskView */,
-				8A366BF8845340727BBA5131 /* Pods-PXMaskButton-UIImageUtilities */,
-				3F06277FD2CE89DDD6670ABF /* Pods-PXMaskButton-UIImageUtilities-UIImageUtilities */,
-				2C8E775A4F670A25C24B28A6 /* Pods-Tests */,
-				C511AB0C743BD6FC6AD12216 /* Pods-Tests-PXMaskButton */,
-				672BC99AE905EA17EA6346CC /* Pods-Tests-PXMaskButton-MaskView */,
-				93F5E30F9D3471A1981D1DAA /* Pods-Tests-UIImageUtilities */,
-				BD8C1023B8BB4812818866D9 /* Pods-Tests-UIImageUtilities-UIImageUtilities */,
+				E85B5A54F3DA0B32ADFFD14F95C62BD7 /* Pods-PXMaskButton */,
+				CBEC877E6F7CC13DC633808C129BBB7E /* Pods-Tests */,
+				5D68AA9F8EEF3306D8FFF75AECF1F3C2 /* PXMaskButton */,
+				6F2E547171AABD16EA3EE31455447876 /* UIImageUtilities */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0948F708D65C178213842B28 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		482DC28D1AE166DED507441D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4978D385106789FBDEF572AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8585A3CB614B55FBB4646BB3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		1EC6F5F8187824E969304B32 /* Sources */ = {
+		00DDBEFF103346C09ACD4CF8A776470F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54EA88358EE0671DE8D4678F /* Pods-PXMaskButton-dummy.m in Sources */,
+				BE86A1ED49437AA6E779C00B2C58CAAA /* UIImage+Blur.m in Sources */,
+				D1055C4BC168746306E28EB489F7ACC7 /* UIImage+fixOrientation.m in Sources */,
+				B7B1FBF4B854A334E6233D5231218055 /* UIImage+Resize.m in Sources */,
+				C26EEA03C8289EDD72E9A35F819535A3 /* UIImage+RoundCorners.m in Sources */,
+				B1676CAB90284BDA53ED1B171F32D8A2 /* UIImage+Tinted.m in Sources */,
+				47ED78DC78F662DBD5B3A6065BAE3A64 /* UIImageUtilities-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C48C68DDE9305F38403D0D8 /* Sources */ = {
+		68AEBD484E54D13D807E3707BE75BE4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0B4C34EA25A177CD6B9AADCB3AA221 /* PXMaskButton-dummy.m in Sources */,
+				1C9B5FA0E5B8BA0E81DB742D41FFC4FD /* PXMaskButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36B2DFBE212ECCF5C47583DE /* Sources */ = {
+		F8166E6A2C23E8ABAD8C35CD3836B1BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB43DD26222886FC8B041BD /* Pods-Tests-UIImageUtilities-dummy.m in Sources */,
-				DBA17D301465849EEE164012 /* UIImage+Blur.m in Sources */,
-				04D2F95A8E96CE1CD8D596E6 /* UIImage+Resize.m in Sources */,
-				AF6DA8412CAFBDD86C3879FB /* UIImage+RoundCorners.m in Sources */,
-				D01A70FC3CAF581DC9C51BAC /* UIImage+Tinted.m in Sources */,
-				9679CB358B68A73252718A50 /* UIImage+fixOrientation.m in Sources */,
+				CFB4C4109F23C59248728EECF59BC894 /* Pods-PXMaskButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E4E18CA2B5892E5AF9E5300 /* Sources */ = {
+		F8307C548B101E4B30A4ACFC77C44397 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4125F1FE2E0AA4989FE233A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85D0DFBBBFE0274A699B366A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97A44B39AA3E00066BA2FDA9 /* Pods-PXMaskButton-UIImageUtilities-dummy.m in Sources */,
-				176287F12B26B0B1148F011A /* UIImage+Blur.m in Sources */,
-				3DEB4611A6CCFD5EACCFDE88 /* UIImage+Resize.m in Sources */,
-				D99310BA4DC97D7E52BDD1FA /* UIImage+RoundCorners.m in Sources */,
-				51A6A3E8E890D9BF239B9432 /* UIImage+Tinted.m in Sources */,
-				79AD82198BF31D4C6A56541B /* UIImage+fixOrientation.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BFE59579BF0B1C08A26A3FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				038159FBC44DDCC31C4F334B /* PXMaskButton.m in Sources */,
-				A79892FD455D1D1A2D3C5FF0 /* Pods-PXMaskButton-PXMaskButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD60C80F0BCF7CAE1202D1CE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83266B586DA0373FC02AB2D1 /* PXMaskButton.m in Sources */,
-				E90403A74701450EC2C23A78 /* Pods-Tests-PXMaskButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3433646D0763F00B0D4D184 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38C4CB268B5A2822FABAEA0A /* Pods-Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD5281A78B94F8C59344F00C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C3DDE4C910E0C1EB083C153CB3765DD4 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0342114DD5602EBDD286F727 /* PBXTargetDependency */ = {
+		26F34AFAED252A4C7A26113F148E6A66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-UIImageUtilities-UIImageUtilities";
-			target = BD8C1023B8BB4812818866D9 /* Pods-Tests-UIImageUtilities-UIImageUtilities */;
-			targetProxy = 3F0E47D98BE4723C6D57C320 /* PBXContainerItemProxy */;
+			name = UIImageUtilities;
+			target = 6F2E547171AABD16EA3EE31455447876 /* UIImageUtilities */;
+			targetProxy = FAEBC105A5AD30C635DB41B064735731 /* PBXContainerItemProxy */;
 		};
-		20A25597C3EFADBBAC5699C4 /* PBXTargetDependency */ = {
+		50D2293E4E5B717573B82236E4FC127F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-PXMaskButton-UIImageUtilities";
-			target = 8A366BF8845340727BBA5131 /* Pods-PXMaskButton-UIImageUtilities */;
-			targetProxy = 5416EE232A953AF086FC5A53 /* PBXContainerItemProxy */;
+			name = UIImageUtilities;
+			target = 6F2E547171AABD16EA3EE31455447876 /* UIImageUtilities */;
+			targetProxy = DDD5BA3E8823F62BBB7016D4B7A37464 /* PBXContainerItemProxy */;
 		};
-		2EA3C7533B6C6CFC9C4DA099 /* PBXTargetDependency */ = {
+		8A74E5C90E40385F364A84D75A6D8379 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-UIImageUtilities";
-			target = 93F5E30F9D3471A1981D1DAA /* Pods-Tests-UIImageUtilities */;
-			targetProxy = 85A92B46937520A2A53FE5C9 /* PBXContainerItemProxy */;
+			name = UIImageUtilities;
+			target = 6F2E547171AABD16EA3EE31455447876 /* UIImageUtilities */;
+			targetProxy = 80987B1B488D91930D9B87E7EBF2F2FC /* PBXContainerItemProxy */;
 		};
-		3122CA128D9124333BAD19BE /* PBXTargetDependency */ = {
+		9FA750EE7F69DA45C1A93C4D96E5B457 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXMaskButton-MaskView";
-			target = 672BC99AE905EA17EA6346CC /* Pods-Tests-PXMaskButton-MaskView */;
-			targetProxy = 411737650F0109399FB6B9CB /* PBXContainerItemProxy */;
+			name = PXMaskButton;
+			target = 5D68AA9F8EEF3306D8FFF75AECF1F3C2 /* PXMaskButton */;
+			targetProxy = E0A4A30B49A55C4C205FB7FE2DE6ED5A /* PBXContainerItemProxy */;
 		};
-		47632B5A7A24C0D619F8A5A1 /* PBXTargetDependency */ = {
+		E0689C0264662A855B840D5B175817A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-PXMaskButton-PXMaskButton-MaskView";
-			target = 3E65599F9BB8F2F3F3079473 /* Pods-PXMaskButton-PXMaskButton-MaskView */;
-			targetProxy = 806AF030CD15CEB7ACD41678 /* PBXContainerItemProxy */;
-		};
-		5451639FE45D7E29D7302AA0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PXMaskButton-UIImageUtilities-UIImageUtilities";
-			target = 3F06277FD2CE89DDD6670ABF /* Pods-PXMaskButton-UIImageUtilities-UIImageUtilities */;
-			targetProxy = D594E75246BB2A6AC56A1EC3 /* PBXContainerItemProxy */;
-		};
-		77915EF837F9FC7554CEC4DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXMaskButton";
-			target = C511AB0C743BD6FC6AD12216 /* Pods-Tests-PXMaskButton */;
-			targetProxy = F06DAAE84C5DA6FFD875E249 /* PBXContainerItemProxy */;
-		};
-		A654C752282193D2641AFC9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PXMaskButton-UIImageUtilities";
-			target = 8A366BF8845340727BBA5131 /* Pods-PXMaskButton-UIImageUtilities */;
-			targetProxy = E4C2708F5CD5586419840F26 /* PBXContainerItemProxy */;
-		};
-		C3B1E9207A16B0DE2E794E35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PXMaskButton-PXMaskButton";
-			target = E74BF367854F6806C74DE4AC /* Pods-PXMaskButton-PXMaskButton */;
-			targetProxy = 48BD974A86793713D24D2136 /* PBXContainerItemProxy */;
-		};
-		E090B901949CB6AA36FA9DA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-UIImageUtilities";
-			target = 93F5E30F9D3471A1981D1DAA /* Pods-Tests-UIImageUtilities */;
-			targetProxy = BBBF4CAF2D00C56BAF024155 /* PBXContainerItemProxy */;
+			name = PXMaskButton;
+			target = 5D68AA9F8EEF3306D8FFF75AECF1F3C2 /* PXMaskButton */;
+			targetProxy = 58CB635E112C00C4C46EA5332065D44E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04A1DD66AED9546256F16385 /* Release */ = {
+		0DE9C6E6D89FD8F189CCD058DEE044A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7C0BE4421BB6E98BC8A3E79698585E /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = UIImageUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		1A6A9D331C20F8EC168712E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 344210E853C932810E4977EA /* Pods-PXMaskButton.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		1D3ADC0923844F085343699F /* Debug */ = {
+		1009448AB5FAD2838BAF779FDF896F6E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D43834670E23534AA0CEF9D /* Pods-Tests-PXMaskButton-Private.xcconfig */;
+			baseConfigurationReference = C576A11212C564476AA8947EFDA5C01B /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXMaskButton/Pods-Tests-PXMaskButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3A99C43B9A77F7104538C83BC3591A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986BF67BC7B00920267D4DA938D79B46 /* Pods-PXMaskButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		21C06C0FD6D66C6E2F5E712D /* Release */ = {
+		47FECADE0E51AC86566C2B8EB9E37CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77470133847F50EDD1CA0F1913D501B1 /* PXMaskButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXMaskButton/PXMaskButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4C9F2EF7E12CEF64FA742183F6EA52CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0EEBCD53654666F50412831C6CA518 /* Pods-PXMaskButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7C409E24711EDE7C977DF9723772BB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BB22E7E6680B8D6ADB9E9DD373A764 /* UIImageUtilities.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImageUtilities/UIImageUtilities-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		91E5370E95DF7E1A41C14FFB5479E192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BB22E7E6680B8D6ADB9E9DD373A764 /* UIImageUtilities.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImageUtilities/UIImageUtilities-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B97B051F647B1A8CD4537750DEE6E6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77470133847F50EDD1CA0F1913D501B1 /* PXMaskButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PXMaskButton/PXMaskButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1DF5D16D790F11CEA13F239461602C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -954,141 +718,22 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2D02B69AEA04088188EF435E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = UIImageUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		340B4930BC47B569C57FB381 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43DB598FDE5AC3EC2C3352E4 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		35B50D6B7F03E9D6111554AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC6D7FB7035A7113F674EA8D /* Pods-Tests-UIImageUtilities-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UIImageUtilities/Pods-Tests-UIImageUtilities-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4606997B1D79ED8DCE3478DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2963CF0ADE5D4C8786A80233 /* Pods-PXMaskButton-UIImageUtilities-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXMaskButton-UIImageUtilities/Pods-PXMaskButton-UIImageUtilities-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		488C621D0EB47C6CD42CB15D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = UIImageUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5FE522F59BF9EB3A1DA06D2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MaskView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		693E673DE7EAC5A957542A69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = UIImageUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		7729660E6864099AAC6C5124 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -1099,261 +744,107 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		8267EF6C1B7ED6A40879D2D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D43834670E23534AA0CEF9D /* Pods-Tests-PXMaskButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXMaskButton/Pods-Tests-PXMaskButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		86A80641E24E6D9A8FE71342 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD77D0F95758DCC19C2FD75D /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		89F4ACE8460F021E4C5A315A /* Debug */ = {
+		F9248D5D3503D3DE930856DB328D8ACD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MaskView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8AE5FBA35609B2578569B587 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC6D7FB7035A7113F674EA8D /* Pods-Tests-UIImageUtilities-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UIImageUtilities/Pods-Tests-UIImageUtilities-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B83BE13705ECB120480C71AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 915D42D812FE6F28225D8AF8 /* Pods-PXMaskButton-PXMaskButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXMaskButton-PXMaskButton/Pods-PXMaskButton-PXMaskButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C33AF47D643C2AC0BDA481EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2963CF0ADE5D4C8786A80233 /* Pods-PXMaskButton-UIImageUtilities-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXMaskButton-UIImageUtilities/Pods-PXMaskButton-UIImageUtilities-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D24FBE65AB3B09BB13A684F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAAB9C0D004C52E9EAA22066 /* Pods-PXMaskButton.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D4882A0D27C43AA9883AF397 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MaskView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		E1A232B4F6D23FBE3C82FDE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MaskView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E516BAAF83EBA69221AF9AD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 915D42D812FE6F28225D8AF8 /* Pods-PXMaskButton-PXMaskButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXMaskButton-PXMaskButton/Pods-PXMaskButton-PXMaskButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C62F4F7523029356A1BF2B2 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXMaskButton-MaskView" */ = {
+		2C2A21A9897047A130E386EF144CACE9 /* Build configuration list for PBXNativeTarget "UIImageUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89F4ACE8460F021E4C5A315A /* Debug */,
-				5FE522F59BF9EB3A1DA06D2A /* Release */,
+				7C409E24711EDE7C977DF9723772BB30 /* Debug */,
+				91E5370E95DF7E1A41C14FFB5479E192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		158111E9A1DD47FD7BC6E3C3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				340B4930BC47B569C57FB381 /* Debug */,
-				86A80641E24E6D9A8FE71342 /* Release */,
+				D1DF5D16D790F11CEA13F239461602C5 /* Debug */,
+				F9248D5D3503D3DE930856DB328D8ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44C6CD84E4DEBD7C48E86D9D /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton-UIImageUtilities" */ = {
+		9D0CB6A4AF5C7E5DC83D36E7459DD005 /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C33AF47D643C2AC0BDA481EA /* Debug */,
-				4606997B1D79ED8DCE3478DB /* Release */,
+				3A99C43B9A77F7104538C83BC3591A96 /* Debug */,
+				4C9F2EF7E12CEF64FA742183F6EA52CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		650299BF23BAA44FC1D0DD29 /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton-UIImageUtilities-UIImageUtilities" */ = {
+		C7A580583F96194F366C16ECC621A5C3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				693E673DE7EAC5A957542A69 /* Debug */,
-				488C621D0EB47C6CD42CB15D /* Release */,
+				0DE9C6E6D89FD8F189CCD058DEE044A9 /* Debug */,
+				1009448AB5FAD2838BAF779FDF896F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65CB7F0BBA59C67F3B8525C4 /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton-PXMaskButton" */ = {
+		ED3DFCE1B9A8BCCAB378361254A6EDB4 /* Build configuration list for PBXNativeTarget "PXMaskButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B83BE13705ECB120480C71AD /* Debug */,
-				E516BAAF83EBA69221AF9AD6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A00AB30ED33DCB9B1DB69476 /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A6A9D331C20F8EC168712E1 /* Debug */,
-				D24FBE65AB3B09BB13A684F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A89577B8399FB52BAF228CCD /* Build configuration list for PBXNativeTarget "Pods-PXMaskButton-PXMaskButton-MaskView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4882A0D27C43AA9883AF397 /* Debug */,
-				E1A232B4F6D23FBE3C82FDE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA9E360F2F16725DBFB991FF /* Build configuration list for PBXNativeTarget "Pods-Tests-PXMaskButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D3ADC0923844F085343699F /* Debug */,
-				8267EF6C1B7ED6A40879D2D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B55B01401A73242BBDC1C0C5 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIImageUtilities" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8AE5FBA35609B2578569B587 /* Debug */,
-				35B50D6B7F03E9D6111554AA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5AF369C87D29610C71C8BD6 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIImageUtilities-UIImageUtilities" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D02B69AEA04088188EF435E /* Debug */,
-				04A1DD66AED9546256F16385 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F28CDEC97BC9107E0DF94E48 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7729660E6864099AAC6C5124 /* Debug */,
-				21C06C0FD6D66C6E2F5E712D /* Release */,
+				47FECADE0E51AC86566C2B8EB9E37CFB /* Debug */,
+				B97B051F647B1A8CD4537750DEE6E6E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4B688F7FDAC2A42AF999CA72 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

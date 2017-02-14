@@ -1,1 +1,1 @@
-../../../UIImageUtilities/Pod/Classes/UIImage+Tinted.h
+../../../UIImageUtilities/UIImage+Tinted.h
